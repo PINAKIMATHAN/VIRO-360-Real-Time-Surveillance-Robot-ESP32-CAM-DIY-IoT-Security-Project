@@ -1,4 +1,7 @@
 # VIRO-360-Real-Time-Surveillance-Robot-ESP32-CAM-DIY-IoT-Security-Project
+
+![front](https://github.com/user-attachments/assets/2c4de96c-c803-4b40-b314-85445c4282bb)
+
 🔐 VIRO: 360° Real-Time Surveillance Robot | ESP32-CAM | DIY IoT Security Project
 
 Introducing VIRO, a compact mobile surveillance robot designed to redefine real-time security using ESP32-CAM, IoT, and robotics. This smart robot streams live video over Wi-Fi, navigates 360° using TT gear motors, and works efficiently even at night with LED lighting. VIRO is powered by 18650 batteries and controlled remotely via a mobile-friendly web interface hosted on a local server (IP: 192.168.4.1).
