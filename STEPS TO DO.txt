@@ -1,0 +1,73 @@
+ESP32 Board Url:
+https://dl.espressif.com/dl/package_esp32_index.json
+
+1] > File 
+   > Preferences 
+   > Add Url of 'ESP32' in Additional Board Manager
+
+2] > Tools 
+   > Board 
+   > Board Manager 
+   > Type in Search Box - ESP32
+   > Select ESP32 by Espressif Systems version 1.0.6 (Don't choose other versions)
+   > Click Install
+
+Now, we need to Install AsyncTCP & ESPAsyncWebServer
+
+3] > Sketch 
+   > Include Library 
+   > Add zip library 
+   > Select from the system 'AsyncTCP' which was downloaded by using the link
+
+=>AsyncTCP - https://github.com/me-no-dev/AsyncTCP/archive/refs/heads/master.zip
+
+4] > Sketch 
+   > Include Library 
+   > Add zip library 
+   > Select from the system 'ESPAsyncWebServer' which was downloaded by using the link
+
+=>ESPAsyncWebServer - https://github.com/me-no-dev/ESPAsyncWebServer/archive/refs/heads/master.zip
+
+5] > Documents
+   > Arduino
+   > libraries
+   > ESPAsyncWebServer-master
+   > src
+   > AsyncWebSocket   (H file)
+   > Change from (#define WS_MAX_QUEUED_MESSAGES 32) to
+                 (#define WS_MAX_QUEUED_MESSAGES 1)
+   > Ctrl + s (Save it)
+
+6] > Port (as per the system shows)
+   -----If not shows then follow------
+   Install Driver USB to Serial CH340
+   How to visit Device Manager?
+   [] Search box
+   Type "Device Manager" in the search box on the taskbar 
+
+   [] Run box
+   Press the Windows logo key and the R key at the same time, type devmgmt.msc, then click OK or press Enter.
+
+   [] Command Prompt
+   Click the Start Menu or the Search Bar, type CMD, type devmgmt.msc, then press Enter 
+
+   [] Start menu
+   Click the Start button > Settings > Devices > Printers & scanners or Connected devices > Device Manager under Related Settings.
+
+   [] Control Panel
+   Right-click the Start button or press the Windows Logo + X key combination > Control Panel > Device Manager.
+
+    
+   ==> 1st Check in Device Manager 
+   > Other devices / Ports (COM & LPT)
+   > Right Click on [ USB 2.0 Serial ]
+   > Click Properties
+   > Click on Details Tab
+   > Click on Property
+   > Select Hardware IDs in the search box under Property
+    (Make sure that chipset has VID and PID like (CH340)
+   > Download CH340 Driver - https://www.arduined.eu/ch340-windows-10-driver-download/
+                   or - https://sparks.gogo.co.nz/ch340.html
+                   or - https://www.wch-ic.com/search?q=CH340&t=downloads
+   > After downloading CH340 driver in your location from Internet, double click on that file
+   > Now, check Device Manager Port
