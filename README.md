@@ -23,3 +23,16 @@ Dual 18650 batteries for portability
 Ideal for home security, industry, and event monitoring
 
 🎯 Learn how to build your own smart robot, combine IoT + robotics, and create a scalable, real-time security system!
+
+📍 Watch now to learn, build, and secure!
+🔗 Source Code, Circuit Diagram & Setup on GitHub 
+https://github.com/PINAKIMATHAN/VIRO-360-Real-Time-Surveillance-Robot-ESP32-CAM-DIY-IoT-Security-Project.git
+
+🔗 How to Insert Camera in ESP32-CAM Module | Unboxing & Setup Guide
+https://youtu.be/dBEf6smPxVo?list=PLHesb1XRcitip-elmY8U197dk3iktuxBM
+
+🔗 How to Connect 3 LEDs with 3 Switches & a 9V Battery | DIY Electronics
+https://youtu.be/MJVWCKx-UIA?list=PLHesb1XRcitip-elmY8U197dk3iktuxBM
+
+🔗 How to Download & Install Arduino in Windows 10/11
+https://youtu.be/ZT11W5atbYM?list=PLHesb1XRcitisTIZHbSmgGH0xeZG69DM1
